@@ -63,21 +63,21 @@ import {
 } from './ConstantsAdmin'
 
 
-const API_THEM_NHAN_HANG = "http://localhost:8000/addNewBrandProduct"
-const API_THEM_CHUNG_LOAI = "http://localhost:8000/addNewCategoryProduct"
-const API_THEM_BO_SUU_TAP = "http://localhost:8000/addNewCollectionProduct"
-const API_THEM_MAU_SAC = "http://localhost:8000/addNewColorProduct"
-const API_THEM_KICH_CO = "http://localhost:8000/addNewSizeProduct"
-const API_CREATE_NEW_PRODUCT = "http://localhost:8000/createNewProduct"
+const API_THEM_NHAN_HANG = "https://enthusiastic-tan-caridea.cyclic.cloud/addNewBrandProduct"
+const API_THEM_CHUNG_LOAI = "https://enthusiastic-tan-caridea.cyclic.cloud/addNewCategoryProduct"
+const API_THEM_BO_SUU_TAP = "https://enthusiastic-tan-caridea.cyclic.cloud/addNewCollectionProduct"
+const API_THEM_MAU_SAC = "https://enthusiastic-tan-caridea.cyclic.cloud/addNewColorProduct"
+const API_THEM_KICH_CO = "https://enthusiastic-tan-caridea.cyclic.cloud/addNewSizeProduct"
+const API_CREATE_NEW_PRODUCT = "https://enthusiastic-tan-caridea.cyclic.cloud/createNewProduct"
 
-const API_GET_ALL_NHAN_HANG = "http://localhost:8000/getAllBrand"
-const API_GET_ALL_CHUNG_LOAI = "http://localhost:8000/getAllCategory"
-const API_GET_ALL_BO_SUU_TAP = "http://localhost:8000/getAllCollection"
-const API_GET_ALL_MAU_SAC = "http://localhost:8000/getAllColor"
-const API_GET_ALL_KICH_CO = "http://localhost:8000/getAllSize"
-const API_GET_ALL_PRODUCT = "http://localhost:8000/getAllProduct"
+const API_GET_ALL_NHAN_HANG = "https://enthusiastic-tan-caridea.cyclic.cloud/getAllBrand"
+const API_GET_ALL_CHUNG_LOAI = "https://enthusiastic-tan-caridea.cyclic.cloud/getAllCategory"
+const API_GET_ALL_BO_SUU_TAP = "https://enthusiastic-tan-caridea.cyclic.cloud/getAllCollection"
+const API_GET_ALL_MAU_SAC = "https://enthusiastic-tan-caridea.cyclic.cloud/getAllColor"
+const API_GET_ALL_KICH_CO = "https://enthusiastic-tan-caridea.cyclic.cloud/getAllSize"
+const API_GET_ALL_PRODUCT = "https://enthusiastic-tan-caridea.cyclic.cloud/getAllProduct"
 
-const API_PRODUCT_DETAIL = "http://localhost:8000/product"
+const API_PRODUCT_DETAIL = "https://enthusiastic-tan-caridea.cyclic.cloud/product"
 
 export const handleTongQuan = () => {
     return async (dispatch) => {

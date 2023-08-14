@@ -25,7 +25,7 @@ export const updateAvatarLink = (linkAvtObject) => {
                 body: vNewLinkAvatar,
             }
             console.log("objectAVT_JSON", vNewLinkAvatar);
-            const avatarLinkPromise = await fetch("http://localhost:8000/updateTheAvatar", requestOptionPut)
+            const avatarLinkPromise = await fetch("https://enthusiastic-tan-caridea.cyclic.cloud/updateTheAvatar", requestOptionPut)
             // const newLinkAvatarJson = await avatarLinkPromise.json()
             // console.log("newLinkAvatarJson", newLinkAvatarJson);
 
@@ -59,7 +59,7 @@ export const getUserByAccount = (tokenBackFromClient) => {
                 body: tokenBackFromClientJson,
             };
 
-            const userByAccountPromise = await fetch("http://localhost:8000/sendCookie", requestOptionGet)
+            const userByAccountPromise = await fetch("https://enthusiastic-tan-caridea.cyclic.cloud/sendCookie", requestOptionGet)
             const userByAccountIs = await userByAccountPromise.json()
             // console.log("userByAccount", userByAccountIs);
             return dispatch({
@@ -94,7 +94,7 @@ export const sendUserInforGetToken = (inforUser) => {
                 type: PENDING_LOGIN
             })
 
-            const userLoginByEmailPromise = await fetch("http://localhost:8000/login", requestOption)
+            const userLoginByEmailPromise = await fetch("https://enthusiastic-tan-caridea.cyclic.cloud/login", requestOption)
             const tokenUserIs = await userLoginByEmailPromise.json()
             // console.log("tokenUserIs", tokenUserIs);
             return dispatch({
@@ -124,7 +124,7 @@ export const callApiToUpdateUser = (objectUpdate) => {
                 body: vUserNeedUpdate
             }
 
-            const updateUserPromise = await fetch("http://localhost:8000/updateUserById", requestOptionPut)
+            const updateUserPromise = await fetch("https://enthusiastic-tan-caridea.cyclic.cloud/updateUserById", requestOptionPut)
             // const updatedUser = await updateUserPromise.json()
 
 
@@ -158,7 +158,7 @@ export const callApiTaoMoiUserFromFirebase = (objectUser) => {
                 redirect: "follow",
             };
 
-            const allUserPromise = await fetch("http://localhost:8000/getAllUser", requestOptionGet)
+            const allUserPromise = await fetch("https://enthusiastic-tan-caridea.cyclic.cloud/getAllUser", requestOptionGet)
             const allUserList = await allUserPromise.json()
             let uIdList = []
             allUserList.map((item) => {
@@ -170,7 +170,7 @@ export const callApiTaoMoiUserFromFirebase = (objectUser) => {
 
 
             if (isExistUid == false) {
-                const responseUser = await fetch("http://localhost:8000/createNewUser", requestOption)
+                const responseUser = await fetch("https://enthusiastic-tan-caridea.cyclic.cloud/createNewUser", requestOption)
                 const userReceived = await responseUser.json()
 
                 return dispatch({
@@ -210,7 +210,7 @@ export const callApiToCreateNewUserFromRegister = (objectUser) => {
                 redirect: "follow",
             };
 
-            const allUserPromise = await fetch("http://localhost:8000/getAllUser", requestOptionGet)
+            const allUserPromise = await fetch("https://enthusiastic-tan-caridea.cyclic.cloud/getAllUser", requestOptionGet)
             const allUserList = await allUserPromise.json()
             let emailList = []
             allUserList.map((item) => {
@@ -221,7 +221,7 @@ export const callApiToCreateNewUserFromRegister = (objectUser) => {
             const isExistEmail = emailList.includes(objectUser.email)
 
             if (isExistEmail == false) {
-                const responseUser = await fetch("http://localhost:8000/createNewUser", requestOption)
+                const responseUser = await fetch("https://enthusiastic-tan-caridea.cyclic.cloud/createNewUser", requestOption)
                 const userReceived = await responseUser.json()
 
                 return dispatch({
@@ -259,7 +259,7 @@ export const callApiGetUserByUid = (uIdUser) => {
             //     type: PENDING_USER
             // })
 
-            const responseUserByUid = await fetch("http://localhost:8000/getUserByUid/" + uIdUser, requestOption)
+            const responseUserByUid = await fetch("https://enthusiastic-tan-caridea.cyclic.cloud/getUserByUid/" + uIdUser, requestOption)
             const userReceivedByUid = await responseUserByUid.json()
             // console.log("action-userReceived:", userReceivedByName);
             if (userReceivedByUid.userIs == []) {
@@ -289,7 +289,7 @@ export const callApiGetAllUser = () => {
                 redirect: "follow"
             };
 
-            const responseAllUserPromise = await fetch("http://localhost:8000/getAllUser", requestOptionGet)
+            const responseAllUserPromise = await fetch("https://enthusiastic-tan-caridea.cyclic.cloud/getAllUser", requestOptionGet)
             const allUserReceived = await responseAllUserPromise.json()
             // console.log("allUser", allUserReceived);
             return dispatch({
