@@ -206,10 +206,10 @@ const LogInComponent = () => {
                             </div>
 
                             <p className="my-auto font-semibold text-gray-600">Email:</p>
-                            <input ref={RefEmailInput} type="email" className="form-control my-2" placeholder="Nhập email..." />
+                            <input ref={RefEmailInput} type="email" className="form-control my-2" placeholder="example: nam@gmail.com" />
 
                             <p className="my-auto font-semibold text-gray-600">Mật khẩu:</p>
-                            <input ref={RefPasswordInput} type="password" className="form-control py-auto" placeholder="Nhập mật khẩu" />
+                            <input ref={RefPasswordInput} type="password" className="form-control py-auto" placeholder="example: 123" />
 
                             <div className="flex gap-2 mt-3 justify-between max-w-[100%] mx-auto">
                                 <div className="flex gap-2">
