@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/sportyFive-FE/static/css/main.de03caf5.css",
+    "main.js": "/sportyFive-FE/static/js/main.88100af5.js",
+    "static/js/988.c7a5f6f5.chunk.js": "/sportyFive-FE/static/js/988.c7a5f6f5.chunk.js",
+    "static/media/saleSummerFull.png": "/sportyFive-FE/static/media/saleSummerFull.bae0e024518aac10fa49.png",
+    "static/media/fa-solid-900.ttf": "/sportyFive-FE/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/sportyFive-FE/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/sportyFive-FE/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/google.png": "/sportyFive-FE/static/media/google.6bc7d49355c4e25579a0.png",
+    "static/media/fa-brands-400.woff2": "/sportyFive-FE/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/saleSummer.jpg": "/sportyFive-FE/static/media/saleSummer.8c78241188b58022c876.jpg",
+    "static/media/Slide1.jpg": "/sportyFive-FE/static/media/Slide1.8d0dbda674522343e126.jpg",
+    "static/media/Slide2.jpg": "/sportyFive-FE/static/media/Slide2.a3859396f33a34ad6788.jpg",
+    "static/media/fa-regular-400.ttf": "/sportyFive-FE/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/Slide3.jpg": "/sportyFive-FE/static/media/Slide3.05c8fba59366fe0f3b91.jpg",
+    "static/media/AvtDefault.png": "/sportyFive-FE/static/media/AvtDefault.c9034bb506157e8b0738.png",
+    "static/media/fa-regular-400.woff2": "/sportyFive-FE/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/NCSC.png": "/sportyFive-FE/static/media/NCSC.fa6389e8fbc4ef2471d5.png",
+    "static/media/boCongThuong.png": "/sportyFive-FE/static/media/boCongThuong.228a8acacc1811045735.png",
+    "static/media/fa-v4compatibility.ttf": "/sportyFive-FE/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/sportyFive-FE/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "static/media/spinner_black.svg": "/sportyFive-FE/static/media/spinner_black.1da4a8144bbe6d4423bcca5d07064487.svg",
+    "static/media/Spinner-1s-200px.svg": "/sportyFive-FE/static/media/Spinner-1s-200px.3effa2f79cdcced9095f7805fd14c476.svg",
+    "static/media/facebook.svg": "/sportyFive-FE/static/media/facebook.f3e25c707c051a6b0f80bde0a564e3bf.svg",
+    "index.html": "/sportyFive-FE/index.html",
+    "static/media/Rolling-1s-200px.svg": "/sportyFive-FE/static/media/Rolling-1s-200px.13ea82832f4f4c9e69a9bba13d1e0fff.svg",
+    "main.de03caf5.css.map": "/sportyFive-FE/static/css/main.de03caf5.css.map",
+    "main.88100af5.js.map": "/sportyFive-FE/static/js/main.88100af5.js.map",
+    "988.c7a5f6f5.chunk.js.map": "/sportyFive-FE/static/js/988.c7a5f6f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de03caf5.css",
+    "static/js/main.88100af5.js"
+  ]
+}
