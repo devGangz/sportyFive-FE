@@ -127,7 +127,7 @@ const Header = () => {
             setAvatar(null)
             Cookies.remove('token')
             localStorage.clear()
-            window.location.href = "/"
+            window.location.href = "/sportyFive-FE"
         }
     }
 
@@ -141,7 +141,7 @@ const Header = () => {
                 </div>
 
                 <div className='flex items-center'>
-                    <button type='button' onClick={() => navigate("/")} className='text-white hover:bg-cyan-600 px-3 h-[70px]'>Home</button>
+                    <button type='button' onClick={() => navigate("/sportyFive-FE")} className='text-white hover:bg-cyan-600 px-3 h-[70px]'>Home</button>
                     <div className='group'>
                         <button className='text-white peer  hover:bg-cyan-600 px-3 h-[70px] z-10 group-hover:bg-cyan-600 whitespace-nowrap'>Quần áo &nbsp;
                             <i className="fa fa-caret-down hover:text-white"></i>

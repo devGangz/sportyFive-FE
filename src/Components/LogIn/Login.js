@@ -168,7 +168,7 @@ const LogInComponent = () => {
             </div>
 
             {
-                value !== null ? window.location.href = "/" :
+                value !== null ? window.location.href = "/sportyFive-FE/" :
                     <div className="w-screen h-screen  items-center flex bg-cyan-100">
                         <div className="mx-auto max-w-[95%]  items-center top-[50%] left-[50%] p-4 rounded-2xl bg-cyan-400">
                             <a href="/" className='absolute left-[79rem] border p-1 rounded'>
