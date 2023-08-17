@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sportyFive-FE/static/css/main.de03caf5.css",
-    "main.js": "/sportyFive-FE/static/js/main.dbe19441.js",
+    "main.js": "/sportyFive-FE/static/js/main.c3a4964d.js",
     "static/js/988.c7a5f6f5.chunk.js": "/sportyFive-FE/static/js/988.c7a5f6f5.chunk.js",
     "static/media/saleSummerFull.png": "/sportyFive-FE/static/media/saleSummerFull.bae0e024518aac10fa49.png",
     "static/media/fa-solid-900.ttf": "/sportyFive-FE/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
@@ -26,11 +26,11 @@
     "index.html": "/sportyFive-FE/index.html",
     "static/media/Rolling-1s-200px.svg": "/sportyFive-FE/static/media/Rolling-1s-200px.13ea82832f4f4c9e69a9bba13d1e0fff.svg",
     "main.de03caf5.css.map": "/sportyFive-FE/static/css/main.de03caf5.css.map",
-    "main.dbe19441.js.map": "/sportyFive-FE/static/js/main.dbe19441.js.map",
+    "main.c3a4964d.js.map": "/sportyFive-FE/static/js/main.c3a4964d.js.map",
     "988.c7a5f6f5.chunk.js.map": "/sportyFive-FE/static/js/988.c7a5f6f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de03caf5.css",
-    "static/js/main.dbe19441.js"
+    "static/js/main.c3a4964d.js"
   ]
 }
