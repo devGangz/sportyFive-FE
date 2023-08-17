@@ -158,7 +158,7 @@ const RegisterComponent = () => {
                             Đăng ký
                         </button>
                     </div>
-                    <p className="text-white mt-3 mb-[-3px]">Bạn đã có tài khoản?&nbsp;<a href="/login" className="text-blue-700 hover:underline">Đăng nhập ngay!</a></p>
+                    <p className="text-white mt-3 mb-[-3px]">Bạn đã có tài khoản?&nbsp;<a href="/sportyFive-FE/login" className="text-blue-700 hover:underline">Đăng nhập ngay!</a></p>
                 </div>
             </div>
         </>

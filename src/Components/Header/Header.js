@@ -63,8 +63,13 @@ const Header = () => {
     const navigate = useNavigate()
 
     const clickQuanLyTaiKhoan = () => {
-        window.location.href = "/userDetail/" + isLogin
+        window.location.href = "/sportyFive-FE//userDetail/" + isLogin
     }
+
+    const adminDashboard = () => {
+        window.location.href = "/sportyFive-FE/admin"
+    }
+
 
 
     const getCookie = (cname) => {
@@ -199,6 +204,8 @@ const Header = () => {
                                                 </div>
                                             </div>
                                             <a onClick={clickQuanLyTaiKhoan} className='py-1 my-2 px-3  hover:bg-cyan-600 text-white text-center text-sm cursor-pointer border rounded'>Quản lý tài khoản</a>
+                                            <a onClick={adminDashboard} className='py-1 my-2 px-3  hover:bg-cyan-600 text-white text-center text-sm cursor-pointer border rounded'>Admin Dashboard</a>
+
                                             <a href='userDetail' className='py-1 my-1 px-3  hover:bg-cyan-600 text-white text-center text-sm cursor-pointer border rounded'>Đổi mật khẩu</a>
                                             <div className='flex justify-center mt-1 flex-col'>
                                                 <a style={{ display: isLogout ? "none" : "block" }} onClick={openConfirmLogOut} className='text-sm text-white hover:underline w-fit cursor-pointer mx-auto'>Đăng xuất</a>
@@ -217,8 +224,8 @@ const Header = () => {
                             }
 
                             <div style={{ display: isOpenIcon ? "flex" : "none" }} className='flex flex-col bg-gray-900 w-[130px] absolute top-[4.4rem] right-1 peer-hover:flex hover:flex'>
-                                <a className='py-2 px-3  hover:bg-cyan-600 text-white' href="/registerAccount">Đăng ký</a>
-                                <a className='py-2 px-3  hover:bg-cyan-600 text-white' href="/login">Đăng nhập</a>
+                                <a className='py-2 px-3  hover:bg-cyan-600 text-white' href="/sportyFive-FE/registerAccount">Đăng ký</a>
+                                <a className='py-2 px-3  hover:bg-cyan-600 text-white' href="/sportyFive-FE/login">Đăng nhập</a>
                             </div>
 
                         </li>

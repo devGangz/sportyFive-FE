@@ -20,15 +20,18 @@ function App() {
         return (
                 <div className="App">
                         <Routes>
-                                <Route path="/" element={<HomePage />}></Route>
-                                <Route path="/login" element={<LogInPage />}></Route>
-                                <Route path="/registerAccount" element={<RegisterPage />}></Route>
-                                <Route path="/forgotPassword" element={<ForgotPasswordPage />}></Route>
-                                <Route path="/userDetail/:paramUserName" element={<UserDetailPage />}></Route>
-                                <Route path="/admin" element={<AdminPage />}></Route>
+                                <Route path="/sportyFive-FE" element={<HomePage />}></Route>
+                                <Route path="/sportyFive-FE/login" element={<LogInPage />}></Route>
+                                <Route path="/sportyFive-FE/registerAccount" element={<RegisterPage />}></Route>
+                                <Route path="/sportyFive-FE/forgotPassword" element={<ForgotPasswordPage />}></Route>
+                                <Route path="/sportyFive-FE/userDetail/:paramUserName" element={<UserDetailPage />}></Route>
+                                <Route path="/sportyFive-FE/admin" element={<AdminPage />}></Route>
                         </Routes>
                 </div >
         );
 }
 
 export default App;
+
+
+// /sportyFive-FE

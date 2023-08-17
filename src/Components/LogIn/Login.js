@@ -216,7 +216,7 @@ const LogInComponent = () => {
                                     <input ref={RefRememberme} type="checkbox" className="cursor-pointer my-auto w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" name="" id="" />
                                     <p className="my-auto  text-white">Remember me</p>
                                 </div>
-                                <a href="/forgotPassword" >Quên mật khẩu</a>
+                                <a href="/sportyFive-FE/forgotPassword" >Quên mật khẩu</a>
                             </div>
                             <div className="max-w-[100%] items-center relative">
                                 <button disabled={pendingLogin} onClick={loginWithAccout} className="cursor-pointer w-100 rounded mt-2 p-1 bg-blue-800 text-white hover:bg-blue-600">
