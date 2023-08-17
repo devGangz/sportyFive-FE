@@ -128,7 +128,7 @@ const RegisterComponent = () => {
             <div className="w-screen h-screen  items-center flex bg-cyan-100">
 
                 <div className="mx-auto w-[712px] max-w-[95%] items-center top-[50%] left-[50%] p-4 rounded-2xl bg-cyan-400">
-                    <a href="/" className='absolute left-[79rem] hover:scale-110 border p-1 rounded'>
+                    <a href="/sportyFive-FE/" className='absolute left-[79rem] hover:scale-110 border p-1 rounded'>
                         <i className="fa-solid fa-xmark fa-2xl"></i>
                     </a>
                     <h3 className="flex justify-center whitespace-nowrap max-w-[80%] mx-auto font-semibold mb-3">

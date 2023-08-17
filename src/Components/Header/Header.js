@@ -112,7 +112,7 @@ const Header = () => {
         signOut(auth).then(() => {
             setLogin(null)
             localStorage.clear()
-            window.location.href = "/"
+            window.location.href = "/sportyFive-FE/"
             console.log("isLogin", isLogin);
         }).catch((error) => {
             setLogin("")
