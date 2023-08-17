@@ -63,7 +63,7 @@ const Header = () => {
     const navigate = useNavigate()
 
     const clickQuanLyTaiKhoan = () => {
-        window.location.href = "/sportyFive-FE//userDetail/" + isLogin
+        window.location.href = "/sportyFive-FE/userDetail/" + isLogin
     }
 
     const adminDashboard = () => {
