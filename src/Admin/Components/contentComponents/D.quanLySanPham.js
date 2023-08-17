@@ -148,7 +148,7 @@ const QuanLySanPhamComponent = () => {
                     </Table>
                 </TableContainer>
                 <div style={{ display: openDetailPrdForm ? "none" : [] }} className="flex justify-center ">
-                    <Pagination className="fixed bottom-7" count={noPage}
+                    <Pagination className="fixed bottom-2" count={noPage}
                         page={currentPage} onChange={onChangePagination} />
                 </div>
             </div>
