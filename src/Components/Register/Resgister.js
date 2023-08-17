@@ -73,7 +73,7 @@ const RegisterComponent = () => {
                     password: RefPassword.current.value.trim(),
                     soDienThoai: "",
                     email: RefEmail.current.value.trim(),
-                    imageUser: avtD,
+                    imageUser: "https://pbs.twimg.com/tweet_video_thumb/DBBAK32XkAA-VCz.jpg",
                     ngaySinh: "",
                     gioiTinh: "",
                     maSoThue: "",
